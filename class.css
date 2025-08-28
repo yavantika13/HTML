@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#parent{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#child{
+    background-color: orange;
+    /* font-size: 18px;
+    font-weight: bold; */
+    color: white;
+    display: flex;
+}
+.span{
+    background-color: white;
+    margin-left: 10px;
+   
+}
+.login{
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}

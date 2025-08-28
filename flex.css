@@ -1,0 +1,36 @@
+body{
+    
+    height: 400px;
+    width: 400px;
+}
+#parent{
+    border: 2px solid blue;
+    height: 400px;
+    width: 400px;
+    margin: 50px auto;
+    display:flex ;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+}
+#three{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+}

@@ -1,0 +1,36 @@
+#parent{
+    height: 400px;
+     width: 600px; 
+    border: 2px solid black;
+}
+ .one{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     transition: 3s; 
+    
+} 
+ #parent:hover .one{
+    margin-left: 545px;
+    transition: 3s;
+    border-radius: 50%;
+    /* transform: rotate(150deg);  */
+}
+
+#one{
+    background-color: aqua;
+    transition-timing-function:  ease-in;
+}
+#two{
+    background-color: thistle;
+    transition-timing-function: ease-out;
+}
+#three{
+    background-color: salmon;
+    transition-timing-function: ease-in-out;
+}
+#four{
+    background-color: palevioletred;
+}

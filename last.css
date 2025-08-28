@@ -1,0 +1,40 @@
+#parent{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+#child-a{
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    background-color: thistle;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: space-between; */
+    flex-grow: 1;
+}
+#child-b{
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    flex-shrink: 2;
+    background-color: steelblue;
+}
+#child-c{
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    background-color: aqua;
+    flex-grow: 3;
+}
+/* #child-d{
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    /* background-color: palevioletred; */
+    
+/* } */ 

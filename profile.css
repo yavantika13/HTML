@@ -1,0 +1,46 @@
+#body{
+    height: 100vh;
+    /* background-color: black;
+    border-radius: 20px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#parent{
+    margin: 10px;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    border-radius: 11px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0,0,0,0.12) 0px -12px 30px,rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.9) 0px -3px 5px;
+    overflow: hidden;
+
+}
+#child2{
+    height: 50%;
+    width: 40%;
+    position: absolute;
+    
+}
+#child1{
+    height: 50%;
+    width: 100%;
+}
+ #child1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px ;
+}
+child2 img{
+   height: 40%;
+   width: 50%;
+   position: absolute;
+   bottom: 80px;
+   left: 60px;
+    border-radius: 50%;
+    
+}
+#child2 img{
+    border-radius: 50%;
+}
