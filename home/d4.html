@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function step1(fn){
+            setTimeout(()=>{
+                console.log("select a photo");
+                fn()
+            },5000)
+        }
+        function step2(fn){
+            setTimeout(()=>{
+                console.log("caption");
+                fn()
+            },4000)
+        }
+        function step3(fn){
+            setTimeout(()=>{
+                console.log("filter");
+                fn()
+            },3000)
+        }
+        function step4(){
+            setTimeout(()=>{
+                console.log("post");
+            },1000)
+        }
+        step1(()=>{
+            step2(()=>{
+                step3(()=>{
+                    step4(()=>{
+                    
+                    })
+                })
+            })
+        })
+      
+       
+</script>
+</body>
+</html>
